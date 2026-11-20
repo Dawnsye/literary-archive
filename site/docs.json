@@ -1,0 +1,55 @@
+
+{
+  "name": "The Literary Archive",
+  "description": "A personal collection of literary works, essays, and research.",
+  "theme": "readable",
+
+  "colors": {
+    "primary": "#8b3a1d",
+    "light": "#a44a2a",
+    "dark": "#6b2a13",
+    "background": {
+      "light": "#f7f1e3",
+      "dark": "#1a1410"
+    }
+  },
+
+  "fonts": {
+    "heading": {
+      "family": "Noto Serif SC"
+    },
+    "body": {
+      "family": "Noto Serif SC"
+    }
+  },
+
+  "appearance": {
+    "default": "light",
+    "strict": false,
+    "readingTime": true,
+    "readingProgress": true
+  },
+
+  "search": {
+    "prompt": "Search the archive..."
+  },
+
+  "navigation": {
+    "groups": [
+      {
+        "group": "中文 · Chinese",
+        "pages": [
+          "zh/home",
+          "zh/essays/first-essay"
+        ]
+      },
+      {
+        "group": "English",
+        "pages": [
+          "en/home",
+          "en/essays/first-essay"
+        ]
+      }
+    ]
+  }
+}
